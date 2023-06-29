@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:#01031e
+}
+/* The first thing I thought to do was put all the things the text will share. in this case it was just font and being aligned to the center. */
+p,h1,h2,h3, ul, ol {
+  font-family: Courier New, monospace;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+}
+/* The containers were a bit awkward and making the bullet points and numbers far from the text so i added some padding to bring it closer in from the border. */
+ul,ol{
+  padding: 30px;
+  background-color: black;
+}
+header{
+  background-color: #000000;
+}
+h3{
+  
+ font-size: 12px;
+}
