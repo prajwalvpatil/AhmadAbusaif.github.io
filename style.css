@@ -9,6 +9,7 @@ body{
 p,h1,h2,h3, ul, ol {
   font-family: Courier New, monospace;
   text-align: center;
+  
 }
 img {
   display: block;
@@ -18,6 +19,8 @@ img {
 ul,ol{
   padding: 30px;
   background-color: black;
+  width:300px;
+  margin:auto;
 }
 header{
   background-color: #000000;
