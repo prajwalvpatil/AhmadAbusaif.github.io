@@ -1,31 +1,41 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-body{
-  background-color:#01031e
-}
-/* The first thing I thought to do was put all the things the text will share. in this case it was just font and being aligned to the center. */
-p,h1,h2,h3, ul, ol, article {
-  font-family: Courier New, monospace;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
   text-align: center;
-  color: lightyellow
+}
+header {
+  background: rgb(189 188 189);;
+}
+header h1 {
+  font-weight: 400;
+  text-align: center;
+}
+header h2 {
+  text-align: center;
+  font-weight: 200;
 }
 img {
   display: block;
   margin: auto;
 }
 /* The containers were a bit awkward and making the bullet points and numbers far from the text so i added some padding to bring it closer in from the border. */
+
 ul,ol{
-  padding: 30px;
-  background-color: black;
+  padding: 10px;
   width:300px;
   margin:auto;
 }
-header{
-  background-color: #000000;
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  color: black;
 }
 h3{
-  
+
  font-size: 12px;
 }
